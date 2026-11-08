@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int x = 10; //this is normal stack variable
-    int *p = new int; 
+    int *p = new int; //this is dyamic variable
     *p = 100;
 
     cout << *p << endl;

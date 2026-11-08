@@ -11,7 +11,7 @@ int* fun()
 int main()
 {
     int* x = fun();
-     for(int i = 0; i < 5;i++){
+    for(int i = 0; i < 5;i++){
         cout << x[i] <<endl ;
     }
     

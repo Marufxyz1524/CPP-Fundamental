@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-    int a[5];
+    // int a[5]; //static array
+    int* a = new int[5]; //dynamic arry
     for (int i = 0; i < 5; i++)
     {
         cin >> a[i];
@@ -13,6 +14,6 @@ int main()
     {
         cout << a[i] << " ";
     }
-     
+
     return 0;
 }

@@ -29,9 +29,11 @@ int main()
     // }
 
     //string size baray ney
-    string s = "Hello";
-    s = "Hi maruf , Do u remember me";
-    cout << s << endl;
+    
+    // string s = "Hello";
+    // s = "Hi maruf , Do u remember me";
+    // cout << s << endl;
+
 
 
     
